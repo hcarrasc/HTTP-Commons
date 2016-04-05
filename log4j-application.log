@@ -1,0 +1,186 @@
+2016-04-05 09:56:27 INFO  ServerConnector:21 -  IP: 108.163.166.178
+2016-04-05 10:33:04 INFO  ServerConnector:28 -  IP: 108.163.166.178
+2016-04-05 10:34:18 INFO  ServerConnector:29 -  is reachable? : false
+2016-04-05 10:34:18 INFO  ServerConnector:34 -  IP: 108.163.166.178
+2016-04-05 10:35:00 INFO  ServerConnector:24 -  is reachable? : true
+2016-04-05 10:35:01 INFO  ServerConnector:30 -  is reachable? : false
+2016-04-05 10:35:01 INFO  ServerConnector:35 -  IP: 108.163.166.178
+2016-04-05 10:35:11 INFO  ServerConnector:24 -  is reachable? : true
+2016-04-05 10:35:12 INFO  ServerConnector:30 -  is reachable? : false
+2016-04-05 10:35:12 INFO  ServerConnector:35 -  IP: 108.163.166.178
+2016-04-05 10:36:33 INFO  ServerConnector:24 -  is reachable? : true
+2016-04-05 10:36:34 INFO  ServerConnector:30 -  is reachable? : true
+2016-04-05 10:36:34 INFO  ServerConnector:35 -  IP: 108.163.166.178
+2016-04-05 10:40:11 INFO  ServerConnector:24 -  is reachable? : true
+2016-04-05 10:40:11 INFO  ServerConnector:29 -  IP: 108.163.166.178
+2016-04-05 10:40:11 INFO  ServerConnector:37 -  IS 108.163.166.178
+2016-04-05 10:40:36 INFO  ServerConnector:37 -  IS couldn't connect to server
+2016-04-05 10:41:39 INFO  ServerConnector:39 -  IS couldn't connect to server
+2016-04-05 10:43:28 INFO  ServerConnector:31 -  IP: 108.163.166.178
+2016-04-05 10:43:28 INFO  ServerConnector:41 -  IS 108.163.166.178
+2016-04-05 11:28:09 INFO  ServerConnector:54 -  HostName: 127.0.0.1
+2016-04-05 11:33:12 INFO  ServerConnector:54 -  HostName: digit45.aunet.au.ac.th
+2016-04-05 14:33:22 INFO  ServerConnector:54 -  sun.net.www.protocol.http.HttpURLConnection$HttpInputStream@8cf4c6
+2016-04-05 15:08:34 INFO  ServerConnector:56 -  <!DOCTYPE HTML>
+<!--
+	Overflow 1.1 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Héctor Carrasco</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,300italic" rel="stylesheet" type="text/css" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.poptrox.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<h1>Héctor Carrasco Burgos</h1>
+					<p>Ingeniero Civil en Informática</p>
+					<img src="images/perfil.jpg" height="300px;" style="margin-top:20px;">
+				</header>
+
+				<footer>
+					<a href="#banner" class="button style2 scrolly scrolly-centered">Hola!, Conozca más de mí</a>
+				</footer>
+			</section>
+		
+		<!-- Banner -->
+			<section id="banner">
+				<header>
+					<h2>Algo de mí</h2>
+				</header>
+				<section style="width:70%; margin: 10px auto 15px auto;">
+					<ul class="default">
+						<li>Nací un 3 de marzo del '87 en Lota, crecí en Coronel y San Pedro de la Paz. Actualmente vivo y trabajo en Santiago, Chile</li>
+						
+						<li>Me gustan todas las cosas que contengan algún misterio implicito como la física y computación
+						 cuántica, la astronomía, el "espacio-tiempo" y otras cosas más. También soy fanático de jugar
+						 Call Of Duty online en la PS3, el ajedrez, el fútbol y por sobre todo: diseñar, crear e innovar
+						 creando aplicaciones y sistemas para los dispositivos móviles y la web.</li>
+					</ul>
+				</section>
+				<header>
+					<h2>Formación e Intereses Profesionales</h2>
+				</header>
+				<section style="width:70%; margin: 10px auto 15px auto;">
+					<ul class="default">
+						<li>Estudié Ingeniería Civil en Informática, en la Universidad del Bío-Bío.</li>
+						<li>Mi proyecto de título, fue un emprendimiento personal, evaluado con calificación máxima :)</li>
+						<li>Me interesa el desarrollo sobre dispositivos móviles, trabajar en proyectos innovadores  
+						que representen un desafío de la ingeniería en computación e informática y las TIC's en general
+						 donde pueda hacer volar mi creatividad y talento :P</li>
+					</ul>
+				</section>
+				<footer>
+					<a href="#first" class="button style2 scrolly">Intereses en Imágenes:</a>
+				</footer>
+			</section>
+		
+		<!-- Feature 1 -->
+			<article id="first" class="container box style1 right">
+				<a href="#" class="image full" style="width: 400px;"><img src="images/1.PNG"  alt="" /></a>
+				<div class="inner">
+					<header>
+						<h2>Diseño y Programación<br />
+						de Aplicaciones Móviles</h2>
+					</header>
+					<p>Dominio y conocimientos en los principales frameworks, tecnologías y patrones de diseño de iOS:</p>
+					<ul class="default">
+						<li>UIkit, MapKit, Social, Accounts Framework y otros. Web services.</li>
+					</ul>
+				</div>
+			</article>
+		
+		<!-- Feature 2 -->
+			<article class="container box style1 left" style="height:420px">
+				<a href="#" class="image full" style="width: 400px;">
+					<iframe id="ytplayer" type="text/html" width="380" height="200" 
+					 src="https://www.youtube.com/embed/arjBWSNKXTk" frameborder="0" allowfullscreen></iframe>
+					<iframe id="ytplayer" type="text/html" width="380" height="200"
+					 src="https://www.youtube.com/embed/AXIBbR4H018" frameborder="0" allowfullscreen></iframe></a>
+				<div class="inner video">
+					<header>
+						<h2>Integración de<br />
+						Aplicaciones Móviles y Sistemas Web</h2>
+					</header>
+					<p style="margin-right:30px;">(Por favor, al reproducir los videos, véalos en pantalla completa)</p>
+					 
+				</div>
+			</article>
+			
+		<!-- Feature 3 -->
+			<article id="first" class="container box style1 right">
+				<a href="#" class="image full" style="width: 300px;"><img src="images/3.PNG"  alt="" /></a>
+				<div class="inner">
+					<header>
+						<h2>Astronomía y cosas<br />
+						extrañas del universo</h2>
+					</header>
+				</div>
+			</article>
+			
+		<!-- Feature 4 -->
+			<article id="first" class="container box style1 right">
+				<a href="#" class="image full" style="width: 300px;"><img src="images/4.PNG"  alt="" /></a>
+				<div class="inner">
+					<header>
+						<h2>Algoritmos y Lenguajes de Programación</h2>
+					</header>
+				</div>
+			</article>
+			
+		<!-- Feature 5 -->
+			<article id="first" class="container box style1 left">
+				<a href="https://www.facebook.com/photo.php?v=10202929951027005&l=1037827960875319593" class="image full" style="width: 400px;"><img src="images/5.PNG"  alt="" /></a>
+				<div class="inner">
+					<header>
+						<h2>Jugar Call Of Duty !!</h2>
+					</header>
+					<p>Muchísimo mejor si es online :P <br/> mira el video en HD ;)</p>
+				</div>
+			</article>
+		
+		<section id="footer">
+			<ul class="icons">
+				<li><a href="http://twitter.com/HCarrasko" style="margin-left:20px;"><span>Twitter</span></a></li>
+				<li><a href="https://github.com/hcarrasc" style="margin-left:20px;"><span>GitHub</span></a></li>
+				<li><a href="https://www.linkedin.com/profile/view?id=248045389" style="margin-left:20px; margin-right:40px;"><span>LinkedIn</span></a></li>
+			</ul>
+			<div class="copyright">
+				<ul class="menu">
+					<li>&copy; Héctor Carrasco Burgos.</li>
+					<li>tel: +56 9 92968512</li>
+					<li>e-mail: mail@hcarrasco.cl</li>
+					<li>Santiago, Chile.</li>
+				</ul>
+			</div>
+		</section>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		
+		  ga('create', 'UA-36923201-1', 'hcarrasco.cl');
+		  ga('send', 'pageview');
+		
+		</script>
+	</body>
+</html>
+2016-04-05 15:09:11 INFO  ServerConnector:56 -  {"data":[{"player_id":"1","player_name":"Hector","player_score":"45"},{"player_id":"28","player_name":"kam","player_score":"35"},{"player_id":"27","player_name":"nameis","player_score":"33"},{"player_id":"26","player_name":"ddd","player_score":"32"},{"player_id":"30","player_name":"eyshdf","player_score":"28"},{"player_id":"29","player_name":"nexttt","player_score":"28"},{"player_id":"16","player_name":"Xipas","player_score":"24"},{"player_id":"12","player_name":"alberto","player_score":"17"},{"player_id":"15","player_name":"Xipas","player_score":"15"},{"player_id":"9","player_name":"rr","player_score":"15"},{"player_id":"34","player_name":"hdhdhddjdjd","player_score":"12"},{"player_id":"3","player_name":"Nice!! ","player_score":"11"},{"player_id":"40","player_name":"Cherukuir","player_score":"10"},{"player_id":"32","player_name":"aaadone","player_score":"10"},{"player_id":"14","player_name":"Xipas","player_score":"10"},{"player_id":"2","player_name":"Memo Master!!","player_score":"10"},{"player_id":"18","player_name":"hector carrasco","player_score":"9"},{"player_id":"8","player_name":"r","player_score":"9"},{"player_id":"6","player_name":"hello","player_score":"8"},{"player_id":"33","player_name":"wow","player_score":"7"},{"player_id":"7","player_name":"tito!!! :D","player_score":"7"},{"player_id":"23","player_name":"lol","player_score":"7"},{"player_id":"10","player_name":"new","player_score":"6"},{"player_id":"35","player_name":"jose","player_score":"5"},{"player_id":"31","player_name":"soimgh","player_score":"5"},{"player_id":"24","player_name":"ssssss","player_score":"4"},{"player_id":"36","player_name":"ffffff","player_score":"4"},{"player_id":"13","player_name":"jirka","player_score":"4"},{"player_id":"5","player_name":"sender","player_score":"3"},{"player_id":"21","player_name":"hello","player_score":"3"},{"player_id":"17","player_name":"kev","player_score":"3"},{"player_id":"39","player_name":"Siva","player_score":"1"},{"player_id":"4","player_name":"Carlos","player_score":"1"},{"player_id":"19","player_name":"pepepepe","player_score":"1"},{"player_id":"11","player_name":"alberto","player_score":"1"},{"player_id":"22","player_name":"asdas","player_score":"0"},{"player_id":"20","player_name":"hi","player_score":"-1"},{"player_id":"37","player_name":"egzon","player_score":"-5"},{"player_id":"38","player_name":"siva","player_score":"-5"},{"player_id":"25","player_name":"dddddd","player_score":"-9"}],"total":40}
