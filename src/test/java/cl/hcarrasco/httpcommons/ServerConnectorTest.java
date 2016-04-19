@@ -1,6 +1,8 @@
-package cl.hcarrasco.HTTP_Commons;
+package cl.hcarrasco.httpcommons;
 
 import org.junit.Test;
+
+import cl.hcarrasco.httpcommons.ServerData;
 import junit.framework.TestCase;
 
 /**
@@ -11,14 +13,14 @@ public class ServerConnectorTest extends TestCase{
     @Test
     public void checkCorrectConnectionByHost(){
     	String host = "hcarrasco.cl";
-    	ServerConnector sconnector = new ServerConnector();
+    	ServerData sconnector = new ServerData();
     	assertNotNull(sconnector.getIPfromHostName(host));
     }
     
     @Test
     public void checkCorrectConnectionByIP(){
     	String IPstr = "127.0.0.1";
-    	ServerConnector sconnector = new ServerConnector();
+    	ServerData sconnector = new ServerData();
     	assertNotNull(sconnector.getHostNameFromIP(IPstr));
     }
     
