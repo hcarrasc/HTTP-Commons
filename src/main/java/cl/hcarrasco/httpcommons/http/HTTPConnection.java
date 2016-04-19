@@ -1,4 +1,4 @@
-package cl.hcarrasco.httpcommons;
+package cl.hcarrasco.httpcommons.http;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -16,6 +16,11 @@ public class HTTPConnection {
 	
 	final static Logger logger = Logger.getLogger(HTTPConnection.class);
 
+	/**
+	 * @param host
+	 * @param urlParams 
+	 * @return Full content response of request.
+	 */
 	public static String doHTTPGETRequest(String host, Map<String, String> urlParams){
 		
 		String charset = StandardCharsets.UTF_8.name();

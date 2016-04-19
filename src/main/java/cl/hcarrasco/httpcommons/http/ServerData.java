@@ -1,4 +1,4 @@
-package cl.hcarrasco.httpcommons;
+package cl.hcarrasco.httpcommons.http;
 
 import java.io.IOException;
 import java.net.InetAddress;
@@ -13,6 +13,10 @@ public class ServerData {
     
 	final static Logger logger = Logger.getLogger(ServerData.class);
 	
+	/**
+	 * @param hostName
+	 * @return IP string representation in format x.x.x.x
+	 */
 	public String getIPfromHostName(String hostName){
 		
 		String IPstr;
@@ -36,6 +40,10 @@ public class ServerData {
 		return IPstr;
 	}
 	
+	/**
+	 * @param IPstr
+	 * @return Host Name
+	 */
 	public String getHostNameFromIP(String IPstr){
 		
 		InetAddress address = null;

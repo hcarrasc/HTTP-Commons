@@ -2,7 +2,7 @@ package cl.hcarrasco.httpcommons;
 
 import org.junit.Test;
 
-import cl.hcarrasco.httpcommons.ServerData;
+import cl.hcarrasco.httpcommons.http.ServerData;
 import junit.framework.TestCase;
 
 /**
