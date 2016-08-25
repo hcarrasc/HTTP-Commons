@@ -14,6 +14,9 @@ import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.handler.codec.DelimiterBasedFrameDecoder;
 
+/**
+ * @author Héctor Carrasco
+ */
 public class ServerSetup implements Runnable{
 	
 	final static Logger logger = Logger.getLogger(ServerSetup.class);
@@ -22,7 +25,7 @@ public class ServerSetup implements Runnable{
 	private EventLoopGroup workerGroup = new NioEventLoopGroup();
 	private ChannelFuture channelFuture ;
 	private String serverStatusFlag = "off";
-	private int port = 1235;
+	private int port = 0;
 	
 	public void run() {
 		

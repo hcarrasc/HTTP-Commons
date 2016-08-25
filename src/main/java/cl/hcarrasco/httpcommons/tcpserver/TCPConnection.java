@@ -5,8 +5,11 @@ package cl.hcarrasco.httpcommons.tcpserver;
  */
 public class TCPConnection {
 	
+	
 	public void startTCPServer(){
 		ServerSetup server = new ServerSetup();
+		server.setPort(1234);
+		server.setServerStatusFlag("on");
 		server.run();
 	}
 	

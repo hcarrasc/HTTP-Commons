@@ -68,4 +68,22 @@ public class ServerData {
 		return host;
 	}
 	
+	public boolean isServerAvailable(String hostName){
+		InetAddress address = null;
+		boolean serverReachable = false;
+		int timeOut = 5000;
+		
+		try {
+			address = InetAddress.getByName(hostName);
+		    serverReachable = address.isReachable(timeOut);
+		    
+		} catch (IOException e) {
+			e.printStackTrace();
+			logger.info("Is server running: "+serverReachable);
+			return serverReachable;
+		}
+		logger.info("Is server running: "+serverReachable);
+		return serverReachable;
+	}
+	
 }

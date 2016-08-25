@@ -6,6 +6,9 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 import io.netty.util.ReferenceCountUtil;
 
+/**
+ * @author Héctor Carrasco
+ */
 public class ServerHandler extends ChannelInboundHandlerAdapter {
 	
 	final static Logger logger = Logger.getLogger(ServerHandler.class);
