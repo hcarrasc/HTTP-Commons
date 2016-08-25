@@ -22,10 +22,6 @@ import org.apache.log4j.Logger;
 public class HTTPConnection {
 	
 	final static Logger logger = Logger.getLogger(HTTPConnection.class);
-	
-	public static void main(String[] args) {
-		doHTTPAuthRequest("http://cpanel.hcarrasco.cl","hcarrasc","progressive**");
-	}
 
 	/**
 	 * @param urlString
