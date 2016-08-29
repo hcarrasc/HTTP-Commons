@@ -5,8 +5,6 @@ import static org.junit.Assert.*;
 import org.apache.log4j.Logger;
 import org.junit.Test;
 import cl.hcarrasco.httpcommons.http.ServerData;
-import cl.hcarrasco.httpcommons.monitorserver.Monitor;
-import cl.hcarrasco.httpcommons.monitorserver.emailservice.EmailService;
 import cl.hcarrasco.httpcommons.tcpserver.ServerSetup;
 
 /**
@@ -15,14 +13,6 @@ import cl.hcarrasco.httpcommons.tcpserver.ServerSetup;
 public class ServerConnectorTest {
 	
 	final static Logger logger = Logger.getLogger(ServerSetup.class);
-
-    @Test
-    public void checkSendEmail(){
-    	logger.info("Testing sendEmail:");
-    	EmailService emailService = new EmailService();
-    	emailService.sendEmail(null);
-    	logger.info("-----");
-    }
 	
     @Test
     public void checkCorrectConnectionByHost(){
@@ -30,14 +20,6 @@ public class ServerConnectorTest {
     	String host = "hcarrasco.cl";
     	ServerData sconnector = new ServerData();
     	assertNotNull(sconnector.getIPfromHostName(host));
-    	logger.info("-----");
-    }
-    
-    @Test
-    public void checkLoadConfigurations(){
-    	logger.info("Testing loadConfigurations:");
-    	Monitor monitor = new Monitor();
-    	monitor.loadConfigurations();
     	logger.info("-----");
     }
     
